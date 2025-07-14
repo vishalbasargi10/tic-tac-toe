@@ -10,9 +10,9 @@ const App = () => {
   const [scores, setScores] = useState({ X: 0, O: 0 });
 
   useEffect(() => {
-    axios.get('http://3.92.77.80:5000/api/scores')
+    axios.get('http://54.152.184.22:5000/api/scores')
       .then(res => setScores(res.data));
-  }, []);
+  }, []);http:
 
   const handleClick = (i) => {
     if (board[i] || winner) return;
@@ -23,7 +23,7 @@ const App = () => {
     const win = calculateWinner(newBoard);
     if (win) {
       setWinner(win);
-      axios.post('http://3.92.77.80:5000/api/update-score', { winner: win })
+      axios.post('http://54.152.184.22/:5000/api/update-score', { winner: win })
         .then(res => setScores(res.data));
     } else if (!newBoard.includes(null)) {
       setWinner('Draw');
