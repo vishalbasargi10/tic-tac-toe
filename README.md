@@ -11,6 +11,8 @@ It communicates with a backend Node.js API and is deployed using **Docker** and 
 **Backend API:** http://52.91.94.200/:5000
 
 ---
+<img width="712" height="408" alt="image" src="https://github.com/user-attachments/assets/b0ae75ca-bfb7-4147-a880-c43c1bb0d3a3" />
+
 
 ## 📦 Tech Stack
 
@@ -32,5 +34,3 @@ It communicates with a backend Node.js API and is deployed using **Docker** and 
 ├── src/
 │   └── App.jsx
 └── README.md
-
-<img width="685" height="402" alt="image" src="https://github.com/user-attachments/assets/8028720d-b19f-4330-9aa0-9116f0493c9a" />
