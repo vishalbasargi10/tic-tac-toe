@@ -7,8 +7,8 @@ It communicates with a backend Node.js API and is deployed using **Docker** and 
 
 ## 🚀 Live URL
 
-**Frontend:** http://<your-ec2-public-ip>  
-**Backend API:** http://<your-ec2-public-ip>:5000
+**Frontend:** http://52.91.94.200/
+**Backend API:** http://52.91.94.200/:5000
 
 ---
 
