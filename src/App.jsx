@@ -12,7 +12,7 @@ const App = () => {
   useEffect(() => {
     axios.get('http://52.91.94.200:5000/api/scores')
       .then(res => setScores(res.data));
-  }, []);http:
+  }, []);
 
   const handleClick = (i) => {
     if (board[i] || winner) return;
