@@ -7,8 +7,7 @@ It communicates with a backend Node.js API and is deployed using **Docker** and 
 
 ## 🚀 Live URL
 
-**Frontend:** http://52.91.94.200/
-**Backend API:** http://52.91.94.200/:5000
+**Frontend:** http://100.28.21.228/
 
 ---
 <img width="712" height="408" alt="image" src="https://github.com/user-attachments/assets/b0ae75ca-bfb7-4147-a880-c43c1bb0d3a3" />
